@@ -1,1 +1,16 @@
-print("Hello World")
+print("===== Student Profile =====")
+
+name = input("Enter student name: ")
+age = int(input("Enter age: "))
+course = input("Enter course: ")
+college = input("Enter college name: ")
+email = input("Enter email: ")
+phone = input("Enter phone number: ")
+
+print("\n===== Student Profile =====")
+print("divyang kadu    :", name)
+print("23     :", age)
+print("cse  :", course)
+print("itm sls baroda university :", college)
+print("divyangkadu282@gmail.com   :", email)
+print("9998831761   :", phone)
