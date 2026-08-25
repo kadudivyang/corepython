@@ -1,23 +1,28 @@
-#row = 1
+# food_apps = ["Zomato", "Swiggy", "Domino's", "McDonald's", "Pizza Hut"]
+#
+# for app in food_apps:
+#     print(app)
 
-#while row <= 5:
-#    print("*" * row)
-#    row += 1
 
-row = 1
+# user_bio = "Music lover | Foodie | Traveller"
+#
+# count = 0
+#
+# for char in user_bio:
+#     if char != " ":
+#         count += 1
+#
+# print("Number of characters excluding spaces:", count)
 
-while row <= 4:
-    # Print spaces
-    space = 1
-    while space <= 4 - row:
-        print(" ", end="")
-        space += 1
+# fav_movies = ["3 Idiots", "Dangal", "KGF"]
+#
+# for movie in fav_movies:
+#     print(movie.upper())
 
-    # Print stars
-    star = 1
-    while star <= (2 * row - 1):
-        print("*", end="")
-        star += 1
+#
+# word = input("Enter a word: ")
+#
+# for char in word:
+#     if char == "a" or char == "e" or char == "i" or char == "o" or char == "u":
+#         print(char)
 
-    print()
-    row += 1
