@@ -1,12 +1,25 @@
-def get_discounted_price(price, discount_percent):
-    discount = price * (discount_percent / 100)
-    final_price = price - discount
-    return final_price
+# fav_apps = ("Instagram", "Zomato", "Spotify", "WhatsApp", "Flipkart")
+# print(fav_apps)
+
+# fav_apps = ("Instagram", "Zomato", "Spotify", "WhatsApp", "Flipkart")
+# print("2nd app:", fav_apps[1])
+# print("4th app:", fav_apps[3}
 
 
-# Test the function
-price = 500
-discount = 10
+# fav_apps = ("Instagram", "Zomato", "Spotify", "WhatsApp", "Flipkart")
+# # Trying to change the first element
+# fav_apps[0] = "YouTube"
+# # Error: TypeError: 'tuple' object does not support item assignment
+# # This happens because tuples are immutable, so their elements cannot be changed.
 
-final_price = get_discounted_price(price, discount)
-print("Final price:", final_price)
+
+# fav_apps = ("Instagram", "Zomato", "Spotify", "WhatsApp", "Flipkart")
+# # Print the middle three apps
+# print(fav_apps[1:4])
+
+
+# fav_apps = ("Instagram", "Zomato", "Spotify", "WhatsApp", "Flipkart")
+# new_apps = ("Telegram", "Netflix")
+# all_apps = fav_apps + new_apps
+# print(all_apps)
+
